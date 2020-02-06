@@ -16,6 +16,10 @@ public abstract class FiguraGeometricaPGB {
 		return tipoFigura;
 	}
 
+	public double semiPerimetro() {
+		return this.perimetro() / 2;
+	}
+	
 	public void setTipoFigura(String tipoFigura) {
 		this.tipoFigura = tipoFigura;
 	}
